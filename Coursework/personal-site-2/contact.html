@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Personal Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div id="name">
+        <h1>Brandon Fox Ricca</h1>
+      </div>
+      <div>
+        <a href="index.html" target="_blank">Home</a>
+        <a href="about.html" target="_blank">About</a>
+        <a href="portfolio.html" target="_blank">Portfolio</a>
+        <a class="active" href="contact.html" target="_blank">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contact Me:</h1>
+    <form id="form">
+      <fieldset> <!--Makes a box around the form -->
+        <div>
+          <label for="name">Name: </label>
+          <br>
+          <input type="text" id="name" required>
+        </div>
+
+        <div>
+          <label for="email">Email: </label>
+          <br>
+          <input type="email" id="email" required>
+        </div>
+
+        <div>
+          <label for="message'">Message: </label>
+          <br>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+          <a href="redirect.html" target="_blank">
+            <button id="submit">Submit</button>
+          </a>
+        </div>
+
+        <div id="gender">
+          <input type="radio" id="Male" value="Male" name="gender" required>
+          <label for="Male">Male</label>
+          <br>
+          <input type="radio" id="Female" value="Female" name="gender" required>
+          <label for="Female">Female</label>
+          <br>
+          <input type="radio" id="NonBinary" value="NonBinary" name="gender" required>
+          <label for="NonBinary">Non-Binary</label>
+          <br>
+          <input type="radio" id="NotSay" value="NotSay" name="gender" required>
+          <label for="NotSay">I prefer not to say</label>
+        </div>
+      </fieldset>
+    </form>
+  </main>
+
+  <hr>
+
+  <footer>
+    <!-- mailto will automatically open whatever email app on your pc -->
+    <a href="mailto: tulshibrandon@gmail.com" target="_blank" style="text-decoration: underline;">Email</a>
+  </footer>
+  <script src="javascript.js"></script> <!--Put at the end to reduce page load time-->
+</body>
+
+</html>
