@@ -1,0 +1,103 @@
+body {
+  color: #c0c0c0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+}
+
+html {
+  background-color: #505050;
+}
+
+nav {
+  box-shadow: 0 0 12px -2px black;
+  position: fixed;
+  left: 0;
+  right: 0;
+  align-items: center;
+  background-color: #333333;
+  color: #c0c0c0;
+  display: flex;
+  justify-content: space-between; /* Makes the text in Nav bar appear on each side */
+  padding: 10px;
+  height: 80px;
+}
+
+/* Underlines the word in the nav bar to show you what page your on easily */
+.active {
+  border-bottom: 1px solid #c0c0c0;
+}
+
+a {
+  color: #c0c0c0;
+  text-decoration: none;
+  font-size: x-large;
+  margin: 0 5px;
+}
+
+* { /* Selects all elements */
+  box-sizing: border-box;
+}
+
+img {
+  float: right;
+  width: 300px;
+  margin: 10px 0 10px 10px;
+  box-shadow: 0 0 12px -2px black;
+}
+
+main {
+  padding: 85px 24px 96px;
+  box-shadow: 0 0 12px -2px black;
+  min-height: 100vh;
+  width: 50%;
+  align-self: center;
+  background-color: #333333;
+  margin-left: 25vw; /* Moves the main body into the center */
+  color: #c0c0c0;
+  font-size: large;
+  box-shadow: 0 0 12px -2px black;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-decoration: underline;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+p {
+  line-height: 1.5em; /* adds spaces inbetween the words */
+  text-indent: 2em; /* Indents the paragraph */
+}
+
+.quote {
+  text-align: center;
+  margin-top: 8em;
+  font-size: x-large;
+  font-weight: 100;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+  position: absolute;
+}
+
+
+.flex-hobbies {
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 24px 24px 24px;
+}
+
+hr {
+  width: 100%; /* Makes the hr able to span the whole width without being broken */
+}
+
+/* Picture on the portfolio page */
+#Chopper {
+  height: fit-content;
+  width: fit-content;
+  float: none;
+}
